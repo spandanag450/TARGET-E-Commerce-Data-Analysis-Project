@@ -15,20 +15,13 @@ Sales trends over time
 Retention and growth metrics
 
 🧰 Technologies Used
-Python (Pandas, Matplotlib/Seaborn, sqlite3)
+Python (Pandas, Matplotlib/Seaborn, Mysql)
 
 Jupyter Notebook
 
-SQL (SQLite syntax)
+SQL (mysql syntax)
 
-📁 Project Structure
-bash
-Copy
-Edit
-.
-├── python+sql_ecommerce.ipynb     # Main analysis notebook
-├── Questions.txt                  # Query prompt list (Basic → Advanced)
-├── README.md                      # Project documentation
+
 🚀 How to Use
 
 cd ecommerce-sql-analysis
@@ -38,13 +31,13 @@ Open python+sql_ecommerce.ipynb in Jupyter Notebook or VS Code.
 Run the Notebook
 The notebook:
 
-Loads the dataset (presumably from a SQLite DB)
+Loads the dataset (presumably from a Mysql DB)
 
 Runs SQL queries directly using Python
 
 Presents insights with visuals and statistics
 
-⚠️ Make sure the SQLite database (if used) is present in the working directory if required by the notebook.
+⚠️ Make sure the MySQL database (if used) is present in the working directory if required by the notebook.
 
 📌 Query Categories
 The analysis is driven by business questions categorized by complexity:
