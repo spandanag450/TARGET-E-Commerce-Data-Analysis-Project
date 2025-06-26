@@ -1,78 +1,75 @@
 # TARGET-E-Commerce-Data-Analysis-Project
-This project is a comprehensive data analysis of an e-commerce dataset using Python and SQL. It explores customer behavior, sales performance, and product trends through a series of basic to advanced SQL queries.
-The Python Jupyter Notebook serves as a bridge to extract insights from the database using SQL embedded in Python, and presents findings with clean visualizations and statistics.
+Overview
+This project demonstrates my ability to analyze and extract business insights from real-world e-commerce data using SQL and Python. The dataset contains customer orders, payments, products, and seller details from a multi-category Brazilian e-commerce platform. I used structured queries, exploratory data analysis, and visualization techniques to uncover key trends in customer behavior, sales performance, and seller effectiveness.
 
-The goal is to provide insights into:
+🔧 Tools & Technologies
+SQL: MySQL (for data querying and aggregation)
 
-Customer demographics and behavior
+Python: Pandas, Matplotlib, Seaborn
 
-Product and category performance
+Jupyter Notebook: For integrated analysis and visualization
 
-Seller revenue rankings
-
-Sales trends over time
-
-Retention and growth metrics
-
-🧰 Technologies Used
-Python (Pandas, Matplotlib/Seaborn, Mysql)
-
-Jupyter Notebook
-
-SQL (mysql syntax)
+🔍 Key Objectives & Use Cases
+Customer Insights
 
 
-🚀 How to Use
 
-cd ecommerce-sql-analysis
-Launch the Notebook
-Open python+sql_ecommerce.ipynb in Jupyter Notebook or VS Code.
+Identified customer distribution across states and cities
 
-Run the Notebook
-The notebook:
+Analyzed retention rate: % of customers who made repeat purchases within 6 months
 
-Loads the dataset (presumably from a Mysql DB)
+Evaluated customer purchasing behavior and spending patterns
 
-Runs SQL queries directly using Python
 
-Presents insights with visuals and statistics
 
-⚠️ Make sure the MySQL database (if used) is present in the working directory if required by the notebook.
+Sales & Revenue Analysis
 
-📌 Query Categories
-The analysis is driven by business questions categorized by complexity:
 
-✅ Basic
-Cities where customers are located
 
-Orders in 2017
+Computed total and category-wise sales
 
-Total sales by category
+Analyzed year-over-year growth and cumulative monthly revenue
 
-Installment-based order percentages
+Ranked sellers by revenue and visualized top-performing ones
 
-Customer count per state
 
-📊 Intermediate
-Monthly order volume (2018)
 
-Average products per order per city
+Order & Payment Trends
 
-Revenue share by product category
 
-Correlation between product price and purchase frequency
 
-Seller revenue rankings
+Measured the percentage of orders paid in installments
 
-🚀 Advanced
-Moving average of order values per customer
+Evaluated monthly order trends and product frequency per order
 
-Cumulative monthly sales by year
+Calculated moving average of order values per customer to smooth fluctuations
 
-Year-over-year sales growth
 
-Customer retention within 6 months
 
-Top 3 customers per year by spend
+Product & Seller Performance
 
-These queries are implemented in SQL and visualized using Python for clear communication of results.
+
+
+Assessed product category contribution to overall revenue
+
+Correlated product prices with purchase frequency
+
+Identified top 3 customers by annual spending
+
+📊 Sample Visualizations & Analysis
+Bar charts showing total sales by category
+
+Line plots for cumulative monthly revenue trends
+
+Heatmaps correlating product prices and sales volume
+
+Scatter plots comparing seller revenue and order count
+
+🧠 Business Value
+Helped identify high-value customers for loyalty targeting
+
+Enabled revenue forecasting through trend analysis
+
+Informed product strategy by revealing top-selling categories
+
+Supported seller management with performance benchmarks
